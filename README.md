@@ -1,4 +1,4 @@
-# -Detected
+# - Detected
 
 # csgo_external_ahk
 Ahk external hack for csgo. <br>
