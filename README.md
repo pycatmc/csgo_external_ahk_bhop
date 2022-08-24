@@ -1,3 +1,5 @@
+# -Detected
+
 # csgo_external_ahk
 Ahk external hack for csgo. <br>
 This cheat uses [hazedumper](https://github.com/frk1/hazedumper) offset.
