@@ -1,4 +1,4 @@
-# UnDetected
+# Undetected
 
 # csgo_external_bhop
 Ahk external bhop for csgo. <br>
