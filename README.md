@@ -1,6 +1,6 @@
 # Undetected
 
-# csgo_external_bhop
+# csgo_external_ahk_bhop
 Ahk external bhop for csgo. <br>
 This cheat uses [hazedumper](https://github.com/frk1/hazedumper) offset.
 
