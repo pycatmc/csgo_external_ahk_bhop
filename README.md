@@ -2,7 +2,7 @@
 
 # csgo_external_ahk_bhop
 Ahk external bhop for csgo. <br>
-This cheat uses [hazedumper](https://github.com/frk1/hazedumper) offset.
+This bhop script uses [hazedumper](https://github.com/frk1/hazedumper) offset.
 
 ## How to use
 1. Install autohotkey unicode 64 bit
