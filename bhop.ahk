@@ -41,12 +41,15 @@ IsMouseEnable() {
 *Space::
 	Send, {Blind}{Space}
 	Loop {
-		if (GetKeyState("Space")) {	
-			Global LocalPlayer := csgo.read(client + dwLocalPlayer, "Uint")
-			Global PlayerStatus := csgo.read(LocalPlayer + m_fFlags, "Uint")
+		GetKeyState,state,space,P
+ 		if state = U
+ 		break
 
-			if (WinActive("ahk_exe csgo.exe") && !IsMouseEnable() && (PlayerStatus = 257 or PlayerStatus = 263)) {
-				Send, {Blind}{Space}
-			}
+ 		
+		Global LocalPlayer := csgo.read(client + dwLocalPlayer, "Uint")
+		Global PlayerStatus := csgo.read(LocalPlayer + m_fFlags, "Uint")
+
+		if (WinActive("ahk_exe csgo.exe") && !IsMouseEnable() && (PlayerStatus = 257 or PlayerStatus = 263)) {
+			Send, {Blind}{Space}
 		}
 	}
