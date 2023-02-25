@@ -1,6 +1,6 @@
 # Undetected
 
-# csgo_external_ahk_bhop
+# External AHK Bhop for CS:GO
 Ahk external bhop for csgo. <br>
 This bhop script uses [hazedumper](https://github.com/frk1/hazedumper) offset.
 
