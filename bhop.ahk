@@ -41,10 +41,9 @@ IsMouseEnable() {
 *Space::
 	Send, {Blind}{Space}
 	Loop {
-		GetKeyState,state,space,P
- 		if state = U
- 		break
-
+		Sleep, 10
+		if !GetKeyState("Space", "P")
+			break
  		
 		Global LocalPlayer := csgo.read(client + dwLocalPlayer, "Uint")
 		Global PlayerStatus := csgo.read(LocalPlayer + m_fFlags, "Uint")
